@@ -44,6 +44,21 @@ p {
   opacity: 0.8;
 }
 
+.title {
+  font-size: 4rem;
+}
+
+.title span {
+  color: var(--primary-color);
+}
+
+h3 {
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  font-style: italic;
+}
+
 /* HEADER */
 .header-bg {
   background: var(--bg-dark-color);
@@ -117,7 +132,7 @@ p {
   background: linear-gradient(180deg, #9b30f9 0%, #8844ee 100%);
   width: fit-content;
   padding: 1.6rem 3.2rem;
-  margin-block: 3.2rem 10rem;
+  margin-block: 3.2rem 9rem;
   font-size: 1.4rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -150,6 +165,43 @@ p {
 
 .home img {
   margin-top: 4rem;
+}
+
+/* SKILLS */
+.skills-bg {
+  background: #202021;
+}
+
+.skills {
+  padding-block: 10rem;
+}
+
+.skills h3 {
+  margin-block: 0.4rem 6rem;
+}
+
+.skills .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.2rem;
+}
+
+.skills .container li {
+  flex: 1 1 30rem;
+  text-align: center;
+  padding: 4rem;
+  background: var(--bg-dark-color);
+  border-radius: 0.8rem;
+}
+
+
+.skills .container li p {
+  font-size: 1.4rem;
+}
+
+.skills .container li h4 {
+  font-size: 2.4rem;
+  margin-block: 2.4rem;
 }
 
 /* CREATE ANIMATION */
