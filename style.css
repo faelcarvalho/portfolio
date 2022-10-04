@@ -12,6 +12,15 @@
   font-size: 62.5%;
 }
 
+::-webkit-scrollbar {
+  width: 1.6rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 1rem;
+}
+
 html {
   scroll-behavior: smooth;
 }
